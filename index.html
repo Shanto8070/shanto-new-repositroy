@@ -3,10 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dom
+    <title>domJ
     </title>
 </head>
 <body>
     
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MY NEW PROJECT</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    
+    <body>
+        
+     <header>
+      <section class="text-center my-6">
+       <h1 class="text-5xl"> Wellcome To Your <span class="text-violet-500">Baper Bank !!!</span></h1>
+      </section>
+       
+       <main  class="bg-blue-200 w-9/12 mx-auto mt-12 p-8">
+        <h1 class="text-3xl block">Please Login</h1>
+        <div>
+          <input class="w-9/12 block my-4 border-none" id="user-email" type="email"placeholder=" Your email address">
+          <input class="w-9/12 block border-none" id="user-password" type="password"placeholder="Your Password">
+          <button id="btn-submit" class="bg-amber-400 py-3 px-8 my-4 rounded -2 hover:bg-fuchsia-600 ">submit</button>
+        </div>
+        </header>
+    
+      <div class="text-center mt-12">
+        <h1 class="text-5xl">Lets Gets Some <span class="text-violet-500">Moooooooooooooy!!!!</span></h1>
+      </div>
+    
+      <footer>
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+    
+          <div class="bg-green-400 p-10 mt-12 rounded-xl">
+            <h1 class="text-3xl">Dipsosit</h1>
+            <h3 class="text-3xl">$<span id="span-diposit">00</span></h3>
+          </div>
+    
+          <div class="bg-yellow-500 p-10 mt-12 rounded-xl">
+            <h1 class="text-3xl">Withdraw</h1>
+            <h3 class="text-3xl">$<span id="mainBalances">00</span></h3>
+          </div>
+    
+          <div class="bg-violet-400 p-10 mt-12 rounded-xl">
+            <h1 class="text-3xl">Balances</h1>
+            <h3 class="text-3xl">$<span id="total">1220</span></h3>
+          </div>
+        </div>
+      </footer>
+    
+    
+      <section>
+        <div class="grid grid-cols-2 w-9/12 mx-auto gap-4  mt-12">
+          <div class="bg-fuchsia-400 p-10 mt-12 rounded-xl">
+            <h1 class="text-3xl text-white">Please Dipsosit</h1>
+    
+            <input class="w-9/12 block my-4 border-none p-2 rounded-xl" id="Diposit-field" type="email" placeholder=" $ Amount you want to Diposit">
+            <button id="btn-Diposit" class="bg-amber-400 py-3 px-8 my-4 rounded -2 hover:bg-fuchsia-600 ">Diposit</button>
+    
+          </div>
+          <div class="bg-lime-500 p-10 mt-12 rounded-xl">
+            <h1 class="text-3xl text-white"> Please Withdraw</h1>
+          
+            <input class="w-9/12 block my-4 border-none p-2 rounded-xl" id="Withdraw-field" type="email" placeholder=" Your email address">
+            <button id="btn-Withdraw" class="bg-amber-400 py-3 px-8 my-4 rounded -2 hover:bg-fuchsia-600 ">Withdraw</button>
+    
+          </div>
+    
+        </div>
+      </section>
+    
+    
+    
+      <script src="./dom.js"></script>
+      <script src="./diposit.js"></script>
+      <script src="./withdraw.js"></script>
+    </body>
+    
+    </html>
+
 </body>
 </html>
